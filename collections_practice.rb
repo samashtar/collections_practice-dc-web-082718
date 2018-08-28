@@ -36,8 +36,8 @@ def sum_array (array)
  end 
  
  def add_s (array)
-   arr.each_with_index do |elem, i|
+   array.each_with_index do |elem, i|
   next if i.zero? # skip the first
-
+array.map {array + "s"}
 end
  end 
