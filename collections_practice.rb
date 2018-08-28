@@ -35,9 +35,14 @@ def sum_array (array)
  array.inject(0){|sum,x| sum + x }
  end 
  
- def add_s (array)
-  array.map {str => str + "s"}
-  next if str.zero? # skip the first
+ 
+def add_s(array)
+  array.each_with_index.collect do |element, index|
+    if index == 1
+      element
+    else
+      element << "s"
+    end
+  end
 end
- end 
  
