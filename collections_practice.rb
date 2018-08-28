@@ -38,9 +38,6 @@ def sum_array (array)
  def add_s (array)
   array.map {str => str + "s"}
   next if str.zero? # skip the first
-
-
-
 end
- end 
+  
  
