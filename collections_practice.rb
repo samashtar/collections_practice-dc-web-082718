@@ -41,4 +41,4 @@ def sum_array (array)
 array.map {array + "s"}
 end
  end 
- end 
+ 
