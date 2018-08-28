@@ -29,8 +29,7 @@ end
 
 def find_a (array)
   newarray = []
-  array.each do |x|
-  x.select {|x| x.start_with? ("a")}                 
+  array.select {|x| x.start_with? ("a")}                 
     newarray << x   
 end
 newarray
