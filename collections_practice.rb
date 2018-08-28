@@ -36,9 +36,11 @@ def sum_array (array)
  end 
  
  def add_s (array)
-   array.each_with_index do |elem, i|
+  array.map {str => str + "s"}
   next if i.zero? # skip the first
-array.map {array + "s"}
+
+
+
 end
  end 
  
