@@ -33,6 +33,7 @@ def find_a (array)
   x.select {|x| x.start_with? ("a")}                 
     newarray << x   
 end
+newarray
 end 
 
 def sum_array (array)
