@@ -28,9 +28,7 @@ end
 end 
 
 def find_a (array)
-  newarray = []
   array.select {|x| x.start_with? ("a")}                 
-    newarray << x   
 end 
 
 def sum_array (array)
